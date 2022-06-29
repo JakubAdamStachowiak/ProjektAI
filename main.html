@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" href="ikona.ico" type="image/x-icon">
+        
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Kalkulator</h1>
+        <div class="start">
+            <label>Wybierz Wielkosc fizyczna</label>
+            <form>
+                <select id="type">
+                    <option value="waga">waga</option>
+                    <option value="predkosc">Prędkość</option>
+                    <option value="moc">Moc</option>
+                    <option value="dystans">Dystans</option>
+                    <option value="temperatura">Temperatura</option>
+                </select>
+                
+            </form>
+            <button onClick="WybierzRodzaj()">Wybierz</button>
+            
+        </div>
+        <br>
+        <div class="Inputs", id="Inputs">
+            <div class="left-div">
+                <label>Z:</label>
+                    <form>
+                        <select id="jednostka_z">
+                        </select>
+                    </form>
+            </div>
+            <div class="mid-diff">
+                <input id="wartosc">
+                <button onClick="Oblicz()">Oblicz!</button>
+            </div>
+            
+            <div class="right-div">
+                <label>Na:</label>
+                <form>
+                    <select id="jednostka_na">
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="wynik">
+            <p id=wynik></p>    
+        </div>
+        <footer>Jakub Stachowiak 4226</footer>
+    </body>
+</html>

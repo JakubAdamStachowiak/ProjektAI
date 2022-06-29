@@ -1,0 +1,41 @@
+p{
+    color:white;
+}
+h1{
+    background-color: #003554;
+    text-align: center;
+    color: white;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    background-color: #051923;
+    color:white;
+    width:100%;
+    text-align: center;
+}
+body{
+    background-color: #006494;
+}
+.Inputs{
+    display: none;
+    text-align: center;
+    color: white;
+}
+.start{
+    color:white;
+    text-align: center;
+}
+.wynik{
+    text-align: center;
+    font-size: 30px;
+}
+.left-div{
+
+}
+.right-div{
+
+}
+.mid-diff{
+
+}
